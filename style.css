@@ -1,0 +1,240 @@
+body {
+        font-family: "Open Sans", OpenSans, sans-serif;
+        font-weight: 200;
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 20px;
+    display: block;
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+.top-left {
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 0;
+    opacity: 0.8;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+    opacity: 0.8;
+}
+h1{
+    font-weight:200;
+    font-size:2.25rem;
+}
+p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+header {
+    color: white;
+    background-color: rgb(32, 101, 136);
+}
+head-nav{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    width:1200px;
+    display: flex;
+    
+}
+.h1pos{
+    font-size:3rem;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.img-log{
+    width: 110px;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom:0.1rem;
+   
+}
+.search{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+}
+input{
+    width:900px;
+    height:30px;
+    padding: 5px 0 5px 10px;
+    float: left;
+    background: rgb(30, 82, 111);
+    color: rgb(93, 107, 115);
+    border: 1px solid rgb(77, 116, 139);
+    font-size: 15px;
+    font-weight:50px;
+    margin-top: 0.5rem;
+    margin-right: 0.7rem;
+    float: left;
+}
+.img-bear{
+    width:40px;
+    float: right;
+}
+
+.backgr{
+    background: url(/Users/kamilapurymska/Downloads/lab-html-module-exercise-master/starter-code/images/city-scape.svg) top no-repeat;
+    background-size: cover;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 4em;
+    padding-bottom: 5em;
+}
+.ptext{
+    padding-right: 520px;
+}
+.img-city {
+    float: right;
+}
+.button{
+    background-color: rgb(240, 146, 51);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    font-weight: 200;
+    font-size:18px;
+}
+.clearfix {
+    clear: both;
+}
+.pos-2{
+    display: flex;
+}
+.img-pos-sec2{
+    float: left;
+    display:block;
+    width:50%;
+    padding:32px;
+    
+}
+.position-sec2{
+    float: left;
+    display: block;
+    padding-left: 40px;
+    width:50%
+    
+}
+.button-2{
+    background-color: rgb(203, 56, 55);border-radius: 20px;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    font-weight: 200;
+    font-size:18px;
+    width: 50%
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.undbutt-2{
+    font-size:1em;
+}
+.sec-2 {
+    text-decoration: none;
+    color: white;
+    font-weight: 450;
+    
+}
+.head-sign{
+    display: inline;
+    margin-bottom: 10px;
+    
+}
+
+.list-2{
+    line-height: 2em;
+    font-size: 1.25rem;
+}
+#npm-orgs {
+    background-color: rgb(39, 53, 71);
+    color: white;
+}
+
+#what-is-npm {
+    background: url(/Users/kamilapurymska/Downloads/lab-html-module-exercise-master/starter-code/images/forklift.svg) top no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    
+}
+.button-3{
+    background-color: rgb(49, 68, 88);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    margin-bottom: 55px;
+    font-weight: 200;
+    font-size:18px;
+    
+}
+.sec-3-1{
+    margin: 0 auto;
+    width: 1100px;
+    text-align: center;
+}
+.box-gen {
+    border: none;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+}
+.box-gen .img-4{
+    width: 125px;
+}
+.col {
+    display: inline-block;
+}
+
+.col-3 {
+    width: 33%;
+}
+
+.h-3 {
+    color: rgb(83, 88, 98);
+}
+.p-3{
+    color: rgb(135, 145, 156);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.a-3 {
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+}
+.p-3-fron{
+    color: rgb(135, 145, 156);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
