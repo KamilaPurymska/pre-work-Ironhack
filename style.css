@@ -97,7 +97,7 @@ input{
 }
 
 .backgr{
-    background: url(/Users/kamilapurymska/Downloads/lab-html-module-exercise-master/starter-code/images/city-scape.svg) top no-repeat;
+    background: url(https://github.com/KamilaPurymska/pre-work-Ironhack/blob/master/images/city-scape.svg) top no-repeat;
     background-size: cover;
 }
 .container {
@@ -178,7 +178,7 @@ input{
 }
 
 #what-is-npm {
-    background: url(/Users/kamilapurymska/Downloads/lab-html-module-exercise-master/starter-code/images/forklift.svg) top no-repeat;
+    background: url(https://github.com/KamilaPurymska/pre-work-Ironhack/blob/master/images/forklift.svg) top no-repeat;
     background-size: cover;
     position: relative;
     color: white;
