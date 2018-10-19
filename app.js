@@ -77,5 +77,3 @@ function listCommand(command){
         turnLeft(rover);
         break;}}}
 
-moveForward(rover);
-console.log(rover);
