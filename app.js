@@ -60,8 +60,6 @@ function moveForward(rover){
       rover.x--;
       break;
   }
-  if (prex===rover.x
-    rover.travelLog.push([prevX])
   console.log("Move forward! Direcrion:" + rover.direction + "coordinations x= " + rover.x + "y=" + rover.y)
 }
 
