@@ -5,6 +5,11 @@ var rover = {
   travelLog:[]
 }
 
+var grid = [];
+var gridSize = {
+  x: 10,
+  y: 10
+};
 
 function turnLeft(rover){
   switch (rover.direction) {
@@ -60,7 +65,12 @@ function moveForward(rover){
       rover.x--;
       break;
   }
-  console.log("Move forward! Direcrion:" + rover.direction + "coordinations x= " + rover.x + "y=" + rover.y)
+  if (checkPosition(rover)) {
+    rover.x = prex;
+    rover.y = prey;
+  } else { 
+    rover.travelLog.push([prex, prey]);
+  console.log("Move forward! Direcrion:" + rover.direction + " coordinations" + rover.travelLog)
 }
 
 
